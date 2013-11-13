@@ -1,0 +1,461 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, section, time, article, figure, hgroup {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline; }
+  
+@font-face {
+    font-family: 'Interstat';
+    src: url('font/Interstate.eot');
+    src: url('font/Interstate.eot?#iefix') format('embedded-opentype'),
+          url('font/Interstate.ttf') format('truetype'),
+          url('font/Interstate.svg#Interstate') format('svg');}
+
+
+  
+@font-face {
+    font-family: 'Interstate-L';
+    src: url('font/Interstate-Light.eot');
+    src: url('font/Interstate-Light.eot?#iefix') format('embedded-opentype'),
+          url('font/Interstate-Light.ttf') format('truetype'),
+          url('font/Interstate-Light.svg#Interstate-L') format('svg');}
+
+
+	  
+		  
+.signin,.signinbutton,.signinimg,.usericon,.listtag,.projectautropic,.projecttag,.messagelogo,.step1field,.commentsubmit,.profilepic,.followbutton,.designerpic,.designfollowbutton,.profilemedal{
+ -moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; 
+
+}
+
+input{outline:none} 
+ul{ list-style:none; }
+
+
+  
+body{  overflow:auto;}
+
+h1{font-family:"Interstat";  margin:0px; } 
+
+h2{font-family:"Interstate-L";  margin:0px;}
+
+
+a{text-decoration:none;}
+
+
+
+
+.header{width:100%; height:50px; 
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(#353535), to(#242424)  );
+/* Firefox 3.6+ */ 
+  background-image: -moz-linear-gradient(top, #353535, #242424 100%);
+  
+  
+  box-shadow:0px 4px 6px #848484;
+  
+  overflow:hidden;
+
+}
+
+
+
+.searchbarbox{border-radius:3px; border:1px solid #CCCCCC; float:left; font-family:'Interstate-L'; font-size:14px; padding-top:5px; padding-bottom:5px;  padding-left:10px; margin-top:10px;  margin-left:20px; }
+
+
+
+
+
+
+
+
+
+.logobox{float:left; height:50px; width:100px;  margin-left:30px; }
+
+
+.bookbox{height: 294px;
+width: 226px; 
+
+
+float:left; margin-top:10px; margin-bottom:10px; 
+ -moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+border-radius: 6px; 
+
+
+
+background-color:#FFFFFF;
+
+margin-left:10px; margin-right:10px;
+
+transition: box-shadow  0.5s;
+-webkit-transition: box-shadow 0.5s;
+
+ }
+ 
+ 
+ 
+ 
+ .bookbox:hover{box-shadow:0px 0px 10px #6B6B6B; 
+ 
+ cursor:pointer;
+ 
+
+transition: box-shadow  0.5s;
+-webkit-transition: box-shadow  0.5s;
+
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+.listad{width:100%; font-size:19px; color:#CCCCCC; margin-top:30px; margin-bottom:30px; margin-left:30px; }
+
+
+
+.boxcontainer{ position:absolute; margin-left:12px; margin-top:12px;}
+
+.booktitle{color:#333333; font-size:14px; margin-left:10px; margin-top:5px; width:205px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap;
+
+}
+
+.bookpic{background-image:url('img/book-bigback.png'); width:205px; height: 220px; margin-left:10px; margin-top:5px;}
+
+
+.bookauthor{color:#999999; font-size:13px; margin-left:10px; margin-top:5px; width:213px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap;
+
+}
+
+.bookyear{color:#999999; font-size:13px; margin-left:10px; margin-top:2px; width:213px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap;
+
+}
+
+.bookunderline{width:205px; border-bottom:1px solid #CCCCCC; margin-top:10px; margin-left:10px;}
+
+
+
+.starrate{ background:#D54B74; position:absolute; margin-top:-250px; margin-left:103px; padding:4px 8px;
+
+padding-bottom:2px;
+
+padding-right:5px;
+
+border-radius:3px 3px 0px 3px;
+
+
+}
+
+
+.ratingangel{width: 0px; height: 0px; border: 5px solid transparent;  border-top: 5px solid #AA2D57; border-left: 5px solid #AA2D57; position:absolute; margin-top:-223px; margin-left:226px;
+
+
+
+  }
+  
+  
+
+.recommendationsidbar{width:330px; float:right; border-left:1px solid #CCCCCC; padding-left:20px; margin-top:30px;}  
+
+.recommendationtitle{ color:#7AADE5;  font-size:25px;  }
+
+.recommendationsubtitle{color:#666666; font-size:15px; margin-top:15px; margin-bottom:20px;}
+
+
+.recommendationbox{height:110px; width:310px; border-bottom:1px dashed #CCCCCC;   padding-bottom:10px;  padding-top:10px;}
+
+
+
+
+
+
+.reccomendationpic{width:100px;  height:110px;  background-image:url('img/book-smallback.png');  float:right; box-shadow:0px 0px 5px #666666 }
+
+.recommendationboxname{color:#406FA3; font-size:15px;  width:150px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap; float:left; }
+ 
+ .recommendationboxname:hover{ text-decoration:underline }
+ 
+ 
+ 
+.recommendationboxauthor{color:#999999; font-size:13px;  width:180px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap; float:left;  margin-top:10px;}
+  
+  
+
+
+
+.footer{ width:100%; height:50px; border-top:1px dashed #CCCCCC; float:left; padding-top:10px; color:#999999; font-size:13px; margin-top:20px;}
+
+
+
+
+.logoutbutton{float:right; border-radius:3px; border:1px solid #5B1A2F; color:#FFFFFF; font-size:15px; padding:5px  15px; margin-right:50px; margin-top:10px; 
+
+background-image: -moz-linear-gradient(top, #5C85BF, #3F6499 100%);
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(#C84A6E), to(#AA3F63)  );
+
+text-shadow: 0px -1px #000000;}
+
+
+.logoutbutton:hover{cursor:pointer; 
+
+box-shadow:0px 0px 3px #666666;}
+
+
+
+.loginname{color:#EFD5DD; font-size:14px; float:right; margin-right:30px; text-shadow: 0px -1px #000000;  margin-top:16px;  }
+
+.loginpic{float:right; border-radius:2px; margin-top:12px; margin-right:20px; width:35px;  }
+
+
+
+
+.pagechange{width:100%;  padding-top:15px; padding-bottom:15px; float:left; text-align:center; } 
+
+
+.changepagebutton{
+
+border:1px solid #5B1A2F;
+
+color:#FFFFFF; font-size:15px; padding:5px  8px;
+
+text-shadow: 0px -1px #000000;
+
+
+background-image: -moz-linear-gradient(top, #C84A6E, #AA3F63 100%);
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(#C84A6E), to(#AA3F63)  );
+
+ border-radius:3px;
+
+width:100px;
+
+
+
+}
+
+
+
+
+.changepagebutton:hover{cursor:pointer; 
+
+box-shadow:0px 0px 5px #666666;
+
+
+}
+
+
+
+
+.changepagebuttonnew{border:1px solid #5B1A2F;
+
+color:#FFFFFF; font-size:15px; padding:5px  8px;
+
+text-shadow: 0px -1px #000000;
+
+
+background-image: -moz-linear-gradient(top, #C84A6E, #AA3F63 100%);
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(#C84A6E), to(#AA3F63)  );
+
+ border-radius:3px;
+
+width:120px; }
+
+
+.changepagebuttonnew:hover{cursor:pointer; 
+
+box-shadow:0px 0px 5px #666666;
+
+
+}
+
+
+
+
+
+
+.changepagebuttoncontainer{ width:300px;  height:30px; margin:0 auto; }
+
+
+
+
+
+
+
+.recommendationrate{width:150px; float:left; margin-top:20px;   height:20px;}
+
+
+.viewbutton{background-image:url('img/view.png'); width:60px; height:60px; position:absolute; margin-top:-190px; margin-left:85px; display:none; }
+  
+  
+
+
+
+
+.homepagebanner{height:660px; width:100%; background-image:url('img/9454509652_a8dacfd2c0_o.jpg'); background-size:cover; }
+
+
+.homepagetitle{color:#FFFFFF; background-color:rgba(0,0,0,0.3); font-size:40px; float:left; margin-top:50px; padding:10px 20px; margin-left:50px;  clear:both;}
+
+.homepageslide{width:100%; height:300px; background-image:url('img/book-back.png'); background-repeat:repeat; margin-top:-220px;}
+
+
+
+.center{width:96%; margin:0px auto; overflow:hidden;} 
+
+
+ 
+
+
+
+
+.downpartpic{float:left; width:900px; height:250px;  overflow:hidden; border-radius:3px; margin-top:30px;}
+
+.downparttext{float:left;color:#333333; margin-top:30px; padding-left:60px;}
+
+
+
+
+.homefooter{width:96%; padding-top:20px; padding-bottom:20px; border-top:1px solid #CCCCCC; margin:20px auto; color:#999999; font-size:13px;}
+
+
+
+.loginbutton{ border:1px solid #FFFFFF;
+
+color:#3F3F3F; font-size:15px; padding:5px  8px;
+
+text-shadow: 0px -1px #FFFFFF;
+
+
+background-image: -moz-linear-gradient(top, #C84A6E, #AA3F63 100%);
+
+background-image: -webkit-gradient(linear,left top,left bottom,from(#FAFBFB), to(#EFEFEF)  );
+
+ border-radius:3px;
+
+width:100px;   float:left; text-align:center; clear:both; margin-left:50px; margin-top:30px;}
+
+
+
+
+.loginbutton:hover{cursor:pointer; 
+
+box-shadow:0px 0px 1px #666666; }
+
+
+
+
+
+.headerbutton{height:50px; padding-left:20px; padding-right:20px; border-left:1px solid #000000; border-right:1px solid #000000; float:left; color:#CCCCCC; text-shadow: 0px -1px #000000; line-height:50px;
+
+box-shadow:1px 0px 0.2px #515151;
+
+
+font-size:14px;
+
+}
+
+.headerbutton:hover{color:#FFFFFF; cursor:pointer}
+
+
+
+
+
+.headerbuttonselect{height:50px; padding-left:20px; padding-right:20px; border-left:1px solid #000000; border-right:1px solid #000000; float:left; color:#FFFFFF; text-shadow: 0px -1px #000000; line-height:50px;
+
+box-shadow:inset 0px 0px 10px #000000; 
+font-size:14px;
+
+}
+
+
+.headerbuttonselect:hover{ cursor:pointer}
+
+.logincontainer{position:fixed; width:100%; height:100%; background-color:rgba(255,255,255,0.6); top:0px; display:none;  z-index:999;}
+
+.loginbox{ width:480px;  margin:60px auto; background-color:#FFFFFF; box-shadow:0px 0px 15px #666666; border-radius:5px; text-align:center; padding-bottom:35px; }
+
+
+
+
+
+.loginputbox{border:1px solid #CCCCCC; padding:10px 10px;  font-family:"Interstate-L"; color:#666666; font-size:15px;  width:360px;}
+
+.loginerrormessage{color:#FFFFFF; font-size:15px; text-align:center; width:385px; background-color:#D67495; padding-top:10px; padding-bottom:10px; margin:20px auto; border-radius:5px;  display:none; }
+
+
+.signupcontainer{position:fixed; width:100%; height:100%; background-color:rgba(255,255,255,0.6); top:0px;  z-index:999; display:none;  }
+
+
+
+
+
+.sigunupbox{ width:480px;  margin:60px auto; background-color:#FFFFFF; box-shadow:0px 0px 15px #666666; border-radius:5px; text-align:center; padding-bottom:35px; }
+
+#confirmpassword::-webkit-input-placeholder{ color:#FFFFFF}
+
+
+#optionalinput::-webkit-input-placeholder{ color:#FFFFFF}
+
+
+.signuperrormessage{color:#FFFFFF; font-size:15px; text-align:center; width:385px; background-color:#D67495; padding-top:10px; padding-bottom:10px; margin:20px auto; border-radius:5px; display:none; }
+
+
+
+.loadingcontainer{width:100%; position:absolute; height:110%; background-color:#FFFFFF; z-index:999; text-align:center; margin-top:10px; }
+
+
+
+.usernametitle{margin-top:20px; margin-left:0px; font-size:36px; color:#999999; float:left; }
+
+
+.userrankbox{float:left; width:340px; height:160px; border-radius:3px; background-color:#FFFFFF; box-shadow:0px 0px 5px #7C7C7C;  margin:20px 8px; }
+
+
+.userrankcontainer{ margin:0px auto; float:left; margin-left:50px; }
+
+
+.userrankimag{float:left; height:140px; width:140px; background-image:url('img/book-bigback.png'); background-size:cover; margin-top:10px; margin-left:10px; border-radius:3px;}
+
+
+
+
+
+.userranktitle{color:#333333; font-size:15px; margin-left:10px; margin-top:5px; width:165px;
+ overflow:hidden;  text-overflow:ellipsis;  white-space:nowrap;
+ float:left;
+ 
+ margin-top:10px;
+ 
+}
